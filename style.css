@@ -33,6 +33,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        z-index: -1;
     }
 
     .container::before {
@@ -99,6 +100,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        z-index: -1;
     }
 
     .container::after {
@@ -163,10 +165,11 @@
     .sec-two {
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .box {
-        width: 370px;
+        width: 32%;
     }
 
     .y-1 {
